@@ -63,18 +63,18 @@ const Projects = () => {
         </ScrollReveal>
 
         <ScrollReveal staggerChildren staggerDelay={0.15} threshold={0.2}>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {projects.map((project, index) => (
               <motion.div
                 key={index}
-                whileHover={{ y: -10 }}
+                whileHover={{ y: -5 }}
                 className="group bg-white dark:bg-dark-200 rounded-xl overflow-hidden border border-gray-200 dark:border-accent-400/20 h-full transition-all duration-300 hover:border-accent-400/40"
               >
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden aspect-video sm:aspect-[16/10]">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
                     <motion.a
@@ -101,7 +101,7 @@ const Projects = () => {
                     )}
                   </div>
                 </div>
-                <div className="p-6">
+                <div className="p-4 sm:p-6">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
                     {project.title}
                   </h3>

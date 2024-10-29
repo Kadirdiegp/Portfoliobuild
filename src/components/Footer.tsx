@@ -14,23 +14,22 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-50 dark:bg-dark-100 py-12 transition-colors duration-300">
+    <footer className="bg-gray-50 dark:bg-dark-100 py-8 sm:py-12 transition-colors duration-300">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col items-center space-y-6 md:space-y-0 md:flex-row md:justify-between">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="mb-6 md:mb-0"
           >
-            <span className="text-2xl font-bold gradient-text">KDR</span>
+            <span className="text-xl sm:text-2xl font-bold gradient-text">KDR</span>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex space-x-6 mb-6 md:mb-0"
+            className="flex space-x-4 sm:space-x-6"
           >
             {socialLinks.map((link, index) => (
               <motion.a
@@ -51,9 +50,12 @@ const Footer = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-gray-600 dark:text-gray-400 text-sm"
+            className="text-gray-600 dark:text-gray-400 text-sm text-center md:text-right"
           >
-            © {currentYear} Kadir Diego Padin Rodriguez. All rights reserved. Rodriguez Digital
+            © {currentYear} Kadir Diego Padin Rodriguez
+            <br className="md:hidden" />
+            <span className="hidden md:inline"> · </span>
+            All rights reserved
           </motion.div>
         </div>
       </div>

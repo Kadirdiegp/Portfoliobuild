@@ -1,19 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Instagram, ArrowDown, Globe2 } from 'lucide-react';
+import { 
+  Github, 
+  Linkedin, 
+  Instagram, 
+  ArrowDown, 
+  Globe2, 
+  Palette, 
+  Layout, 
+  Code, 
+  Pen, 
+  Globe, 
+  Bot, 
+  PenTool,
+  Star 
+} from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 
 const Hero = () => {
   const skills = [
-    { name: 'UI/UX Design', icon: <span className="text-accent-400">UI</span> },
+    { name: 'UI/UX Design', icon: <Palette className="w-4 h-4 text-accent-400" /> },
     {
       name: 'Design Systems',
-      icon: <span className="text-accent-400">DS</span>,
+      icon: <Layout className="w-4 h-4 text-accent-400" />,
     },
-    { name: 'Development', icon: <span className="text-accent-400">Dev</span> },
-    { name: 'Author', icon: <span className="text-accent-400">A</span> },
-    { name: 'Website', icon: <span className="text-accent-400">Web</span> },
-    { name: 'AI', icon: <span className="text-accent-400">AI</span> },
+    { name: 'Development', icon: <Code className="w-4 h-4 text-accent-400" /> },
+    { name: 'Author', icon: <Pen className="w-4 h-4 text-accent-400" /> },
+    { name: 'Website', icon: <Globe className="w-4 h-4 text-accent-400" /> },
+    { name: 'AI', icon: <Bot className="w-4 h-4 text-accent-400" /> },
+    { name: 'Logo', icon: <PenTool className="w-4 h-4 text-accent-400" /> },
   ];
 
   const textVariants = {
@@ -30,7 +45,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 sm:px-6 pt-20">
+    <section className="min-h-[100vh] flex items-center justify-center relative overflow-hidden px-4 sm:px-6 pt-32 pb-16 sm:pt-40">
       <motion.div
         className="absolute inset-0"
         initial={{ opacity: 0 }}
@@ -43,11 +58,11 @@ const Hero = () => {
 
       <div className="container mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div initial="hidden" animate="visible" className="mb-8">
+          <motion.div initial="hidden" animate="visible" className="mb-8 sm:mb-12">
             <motion.h1
               custom={0}
               variants={textVariants}
-              className="text-3xl sm:text-5xl md:text-7xl font-bold mb-4 text-gray-900 dark:text-white"
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-white"
             >
               Digital Design
             </motion.h1>
@@ -65,7 +80,7 @@ const Hero = () => {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            className="text-base sm:text-lg md:text-2xl text-gray-700 dark:text-gray-300 font-light leading-relaxed mb-12 max-w-3xl mx-auto px-4"
+            className="text-base sm:text-lg md:text-2xl text-gray-700 dark:text-gray-300 font-light leading-relaxed mb-8 max-w-3xl mx-auto px-4"
           >
             Creating immersive digital experiences through design, motion, and
             development
@@ -137,6 +152,11 @@ const Hero = () => {
               {
                 Icon: Globe2,
                 href: 'https://interaktivesysteme.fun',
+                label: 'Website',
+              },
+              {
+                Icon: Star,
+                href: 'https://saskia-photographie.de',
                 label: 'Website',
               },
               { 

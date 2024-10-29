@@ -68,12 +68,12 @@ const Services = () => {
         </ScrollReveal>
 
         <ScrollReveal staggerChildren staggerDelay={0.1} threshold={0.2}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {services.map((service, index) => (
               <motion.div
                 key={index}
-                whileHover={{ y: -10 }}
-                className="flex flex-col h-full p-6 bg-white dark:bg-dark-200 rounded-xl border border-accent-400/20 hover:border-accent-400/40 transition-colors shadow-lg hover:shadow-xl"
+                whileHover={{ y: -5 }}
+                className="flex flex-col h-full p-4 sm:p-6 bg-white dark:bg-dark-200 rounded-xl border border-accent-400/20 hover:border-accent-400/40 transition-colors shadow-lg hover:shadow-xl"
               >
                 <div className="mb-4 bg-gradient-to-br from-accent-400 to-accent-600 p-3 rounded-lg w-fit">
                   <service.Icon className="w-6 h-6 text-white" />
