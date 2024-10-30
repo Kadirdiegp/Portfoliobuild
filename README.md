@@ -25,6 +25,4 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 ## Getting Started
 
-1. Clone the repository: # git-commit--m-Initial-commit-Modern-Portfolio-Website
-# git-commit--m-Initial-commit-Modern-Portfolio-Website
-# Portfoliobuild
+1. Clone the repository:

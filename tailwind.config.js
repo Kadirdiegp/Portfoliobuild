@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        'accent': {
-          400: '#FF7B3E',
-          500: '#FF6B28',
-          600: '#FF5A12',
-          700: '#FF4800',
+        accent: {
+          400: '#FF9C28',
+          500: '#FF8C00',
+          600: '#FF7B00',
+          700: '#FF6A00',
         },
         'dark': {
           100: '#121212',

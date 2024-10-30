@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Moon, Sun, Menu, X } from 'lucide-react';
+// Import a regular image file
+import logo from '../assets/LOGO RODRIGUEZ_.png';
+import logoLight from '../assets/logo-light.png';
+import logoDark from '../assets/logo-dark.png';
 
 interface HeaderProps {
   isDark: boolean;
@@ -49,9 +53,13 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
             initial={{ x: -20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="text-xl sm:text-2xl font-bold gradient-text"
+            className="text-xl sm:text-2xl font-bold"
           >
-            KDR
+            <img 
+              src={logo} 
+              alt="Rodriguez Logo" 
+              className="h-12 w-auto"
+            />
           </motion.a>
 
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
