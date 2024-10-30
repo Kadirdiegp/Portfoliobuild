@@ -23,6 +23,24 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - Vite
 - Lucide Icons
 
-## Getting Started
 
-1. Clone the repository:
+## Deployment
+This project can´t be deployed.
+
+## Contact
+
+Kadir Diego Padin Rodriguez - Rodriguez@digital.de
+
+Project Link: [https://github.com/Kadirdiegp/Portfolio](https://github.com/Kadirdiegp/Portfolio)
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgments
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Vite](https://vitejs.dev/)
+- [Lucide Icons](https://lucide.dev/)
