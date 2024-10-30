@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: '3D Tiny World Showcase',
       description: 'Just a Tiny world which was a task in my university.',
-      image: 'https://i9.ytimg.com/vi/dGJBykjIYl0/mqdefault.jpg?v=66897c82&sqp=COithLkG&rs=AOn4CLAsVLFQBAI8plRH7_6xOkUei7F52g',
+      image: 'https://images.unsplash.com/photo-1620428268482-cf1851a36764?auto=format&fit=crop&q=80&w=1200&h=800',
       tech: ['Blender'],
       liveUrl: 'https://www.youtube.com/watch?v=dGJBykjIYl0',
     },
