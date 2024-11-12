@@ -34,7 +34,7 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
     };
   }, [isMenuOpen]);
 
-  const navItems = ['About', 'Projects', 'Services', 'Blog', 'Contact'];
+  const navItems = ['About', 'Projects', 'Services', 'Contact'];
 
   return (
     <motion.header
