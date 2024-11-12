@@ -8,8 +8,8 @@ const Contact = () => {
     {
       Icon: Mail,
       title: 'Email',
-      content: 'Rodriguez@digital.de',
-      link: 'mailto:Rodriguez@digital.de'
+      content: 'diego@rodriguez-digital.de',
+      link: 'mailto:diego@rodriguez-digital.de'
     },
     {
       Icon: Phone,

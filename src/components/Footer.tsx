@@ -12,7 +12,7 @@ const Footer = () => {
     { Icon: Github, href: 'https://github.com/Kadirdiegp', label: 'GitHub' },
     { Icon: Linkedin, href: 'https://www.linkedin.com/in/kadir-diego-padin-rodriguez-b1b2b0201/', label: 'LinkedIn' },
     { Icon: Instagram, href: 'https://www.instagram.com/kadirdiego_/', label: 'Instagram' },
-    { Icon: Mail, href: 'mailto:Rodriguez@digital.de', label: 'Email' }
+    { Icon: Mail, href: 'mailto:diego@rodriguez-digital.de', label: 'Email' }
   ];
 
   return (

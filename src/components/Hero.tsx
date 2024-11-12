@@ -151,8 +151,13 @@ const Hero = () => {
             {[
               {
                 Icon: Globe2,
+                href: 'https://rodriguez-digital.de',
+                label: 'Portfolio Website',
+              },
+              {
+                Icon: Globe2,
                 href: 'https://interaktivesysteme.fun',
-                label: 'Website',
+                label: 'Interactive Systems',
               },
               {
                 Icon: Star,

@@ -29,7 +29,7 @@ This project can´t be deployed.
 
 ## Contact
 
-Kadir Diego Padin Rodriguez - Rodriguez@digital.de
+Kadir Diego Padin Rodriguez - diego@rodriguez-digital.de
 Website : [Rodriguez-digital.de](https://rodriguez-digital.de)
 
 Project Link: [https://github.com/Kadirdiegp/Portfolio](https://github.com/Kadirdiegp/Portfolio)
